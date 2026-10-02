@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Laporan Praktikum - Pendaftaran</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="pendaftaran.html">Pendaftaran</a>
+  </nav>
+  <hr>
+  <h2>Form Pendaftaran Praktikan</h2>
+  <form method="post" action="">
+    <table>
+      <tr>
+        <td>Nama Lengkap</td>
+        <td>: <input type="text" name="nama"></td>
+      </tr>
+      <tr>
+        <td>Password</td>
+        <td>: <input type="password" name="pass"></td>
+      </tr>
+      <tr>
+        <td>NIM</td>
+        <td>: <input type="number" name="nim"></td>
+      </tr>
+      <tr>
+        <td>Tanggal Lahir</td>
+        <td>: <input type="date" name="tgl"></td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>: <input type="radio" name="jk" value="L">Laki-Laki
+          <input type="radio" name="jk" value="P">Perempuan</td>
+      </tr>
+      <tr>
+        <td>Minat bidang</td>
+        <td>: <input type="checkbox" name="minat" value="web">Web
+          <input type="checkbox" name="minat" value="network">Jaringan
+          <input type="checkbox" name="minat" value="design">Design/Modeling</td>
+      </tr>
+      <tr>
+        <td>Program Studi</td>
+        <td>: <select name="prodi">
+          <option value="IF">S1 Teknik Informatika</option>
+          <option value="SI">S1 Sistem Informasi</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Alasan Mendaftar</td>
+        <td>: <textarea name="alasan" rows="3" cols="20"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Kirim"> <input type="reset" value="Reset"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
